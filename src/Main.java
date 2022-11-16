@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         calculadora();
+
     }
 
     /*
@@ -132,9 +133,14 @@ public class Main {
 
             if (opcao.equals("sair")){
                 return;
+            }else if(opcao.equals("AC")) {
+                System.out.print("\033[H\033[2J");
+                System.out.flush();
+                resultado = s.nextDouble();
+                String path = "C:\\\\users\\joao\\documents\\txt.pdf";
+                continue;
             }
             double num = Double.parseDouble(s.next());
-
 
             switch (opcao){
                 case "+":
@@ -152,9 +158,6 @@ public class Main {
                 case "*":
                     resultado *= num;
                     System.out.println(" = " + resultado);
-                    break;
-                case "AC":
-                    resultado = s.nextDouble();
                     break;
                 default:
                     return;
