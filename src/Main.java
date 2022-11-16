@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Main.tabuada();
+        Main.tabuadaExtra();
     }
 
     /*
@@ -23,6 +23,14 @@ public class Main {
             System.out.println( num + " x " + i + " = " + (i*num));
         }
 
+    }
+
+    public static void tabuadaExtra() {
+        for(int j = 1; j < 11; j++) {
+            for(int i = 1; i < 11; i++) {
+                System.out.println(j + " x " + i + " = " + (i * j));
+            }
+        }
     }
 
 }
