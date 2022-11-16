@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Main.idadeMaiores();
+        Main.calculadora();
     }
 
     /*
@@ -59,11 +59,13 @@ public class Main {
     }
 
     /**
+     *
      * Ex3.
      * Faça um algoritmo que permita ao utilizador informar a idade de quantas pessoas ele
      * desejar até o utilizador insira 0.
      * Após isso o algoritmo deve informar a contagem das pessoas maiores de idade e a
      * média de idade das pessoas maiores de idade.
+     *
      */
 
     public static void idadeMaiores(){
@@ -89,5 +91,38 @@ public class Main {
 
         }
         System.out.println("A média dos maiores é: " + (somatorio_idades_maiores/contador_maiores));
+    }
+
+    /**
+     *
+     * Ex. 5 Fibonnacci
+     *
+     */
+    public static void fibonacci(){
+        int ultimo = 1;
+        int penultimo = 1;
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Quantos números pretende:");
+        int n = s.nextInt();
+
+        System.out.println(penultimo);
+        System.out.println(ultimo);
+
+        for(int i = 0; i < n-2;i++){
+            System.out.println(ultimo+penultimo);
+            int tmp = ultimo;
+            ultimo = ultimo+penultimo;
+            penultimo = tmp;
+        }
+    }
+
+    /**
+     *
+     * Ex. 6 Calculadora
+     *
+     */
+    public static void calculadora(){
+
     }
 }
