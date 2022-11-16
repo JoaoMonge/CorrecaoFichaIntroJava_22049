@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Main.calculadora();
+
+        calculadora();
     }
 
     /*
@@ -124,5 +125,41 @@ public class Main {
      */
     public static void calculadora(){
 
+        Scanner s = new Scanner(System.in);
+        double resultado = s.nextDouble();
+        for(;;){
+            String opcao = s.next();
+
+            if (opcao.equals("sair")){
+                return;
+            }
+            double num = Double.parseDouble(s.next());
+
+
+            switch (opcao){
+                case "+":
+                    resultado += num;
+                    System.out.println(" = " + resultado);
+                    break;
+                case "-":
+                    resultado -= num;
+                    System.out.println(" = " + resultado);
+                    break;
+                case "/":
+                    resultado /= num;
+                    System.out.println(" = " + resultado);
+                    break;
+                case "*":
+                    resultado *= num;
+                    System.out.println(" = " + resultado);
+                    break;
+                case "AC":
+                    resultado = s.nextDouble();
+                    break;
+                default:
+                    return;
+            }
+
+        }
     }
 }
