@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio dos números primos.">
+    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio da sequência númerica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668607949955</updated>
       <workItem from="1668607951193" duration="2096000" />
-      <workItem from="1668611236750" duration="6933000" />
+      <workItem from="1668611236750" duration="7930000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1">
       <created>1668608787876</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668616995274</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exercicio da sequência númerica">
+      <created>1668619096825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668619096825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,22 @@
     <MESSAGE value="Calculadora" />
     <MESSAGE value="Exercicio do ano bissexto" />
     <MESSAGE value="Exercicio dos números primos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio dos números primos." />
+    <MESSAGE value="Exercicio da sequência númerica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio da sequência númerica" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>227</line>
+          <properties class="Main" method="desvioPadrao">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

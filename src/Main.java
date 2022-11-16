@@ -1,10 +1,11 @@
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        sequencia();
+        desvioPadrao();
     }
 
     /*
@@ -219,6 +220,43 @@ public class Main {
         }
         System.out.println(somatorio);
     }
+
+    /*
+      Desvio padrão
+    */
+
+    public static void desvioPadrao(){
+        Scanner s = new Scanner(System.in);
+        ArrayList<Double> numbers = new ArrayList<Double>();
+        while(true){
+            System.out.println("Escreva um número:");
+            double num = s.nextDouble();
+            if(num < 0){
+                break;
+            }
+            numbers.add(num);
+        }
+
+        //Calcular a média
+        double soma = 0;
+        for (double num:
+             numbers) {
+            soma += num;
+        }
+        double media = soma / numbers.size();
+
+
+        double x = 0.0;
+        for (double num:
+             numbers) {
+            x += Math.pow(num-media, 2);
+        }
+
+        System.out.println( Math.sqrt((1.0/(double)numbers.size())*x));
+
+    }
+
+
 
 
 }
