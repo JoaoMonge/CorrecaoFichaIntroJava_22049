@@ -1,14 +1,10 @@
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(isPrime(1));
-        System.out.println(isPrime(2));
-        System.out.println(isPrime(7));
-        System.out.println(isPrime(12));
-
-
+        sequencia();
     }
 
     /*
@@ -210,4 +206,19 @@ public class Main {
         return true;
 
     }
+
+    /*
+    Faça um programa que calcula e escreve a seguinte soma:
+  soma = 1/1 + 3/2 +5/3+7/4+...+99/50
+     */
+
+    public static void sequencia() {
+        double somatorio = 0.0;
+        for (double i = 1.0;i<51.0;i++){
+            somatorio += ((i*2.0)-1.0) / i;
+        }
+        System.out.println(somatorio);
+    }
+
+
 }

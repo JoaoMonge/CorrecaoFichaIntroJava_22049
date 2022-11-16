@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio do ano bissexto">
+    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio dos números primos.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668607949955</updated>
       <workItem from="1668607951193" duration="2096000" />
-      <workItem from="1668611236750" duration="5181000" />
+      <workItem from="1668611236750" duration="6933000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1">
       <created>1668608787876</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668616658926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercicio dos números primos.">
+      <created>1668616995274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668616995274</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +142,7 @@
     <MESSAGE value="Exercicio do Fibonnacci" />
     <MESSAGE value="Calculadora" />
     <MESSAGE value="Exercicio do ano bissexto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio do ano bissexto" />
+    <MESSAGE value="Exercicio dos números primos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio dos números primos." />
   </component>
 </project>
