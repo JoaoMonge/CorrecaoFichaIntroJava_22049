@@ -3,7 +3,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        calculadora();
+        System.out.println(bissexto(2016));
+        System.out.println(bissexto(2020));
+        System.out.println(bissexto(1345));
+        System.out.println(bissexto(1900));
+
+
 
     }
 
@@ -164,5 +169,30 @@ public class Main {
             }
 
         }
+    }
+
+    // Faça um método que recebe um ano e
+    // indica true se o mesmo for bissexto
+    // ou false caso não seja.
+
+    // todos anos multiplos de 400
+    // todos anos multiplos de 4, excepto se for multiplo de 100
+    // mas não de 400
+    public static boolean bissexto(int ano){
+        boolean multiplo400 = ano % 400 == 0;
+        boolean multiplo4 = (ano % 4 == 0) && !(ano % 100 == 0 && ano % 400 != 0);
+
+        if( multiplo400 || multiplo4){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /**
+     * Faça um programa que leia um número n e imprima se ele é primo ou não. (um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
+     */
+    public static boolean isPrime(int num){
+
     }
 }
