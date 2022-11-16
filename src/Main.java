@@ -3,11 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(bissexto(2016));
-        System.out.println(bissexto(2020));
-        System.out.println(bissexto(1345));
-        System.out.println(bissexto(1900));
-
+        System.out.println(isPrime(1));
+        System.out.println(isPrime(2));
+        System.out.println(isPrime(7));
+        System.out.println(isPrime(12));
 
 
     }
@@ -190,9 +189,25 @@ public class Main {
     }
 
     /**
-     * Faça um programa que leia um número n e imprima se ele é primo ou não. (um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
+     * Faça um programa que leia um número n e imprima se ele é primo ou não.
+     * (um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
      */
     public static boolean isPrime(int num){
+
+        // FOR EXCLUSIVAMENTE DIVISIVEL POR 1 E POR SI MESMO APENAS
+
+
+        if(num != 1){
+            for( int i = 2; i < num;i++) {
+                if (num % i == 0) {
+                    return false;
+                }
+            }
+        }else{
+            return false;
+        }
+
+        return true;
 
     }
 }
