@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Main.tabuadaIntervalo();
+        Main.idadeMaiores();
     }
 
     /*
@@ -56,5 +56,38 @@ public class Main {
             System.out.println( num + " x " + i + " = " + (i*num));
         }
 
+    }
+
+    /**
+     * Ex3.
+     * Faça um algoritmo que permita ao utilizador informar a idade de quantas pessoas ele
+     * desejar até o utilizador insira 0.
+     * Após isso o algoritmo deve informar a contagem das pessoas maiores de idade e a
+     * média de idade das pessoas maiores de idade.
+     */
+
+    public static void idadeMaiores(){
+        Scanner s = new Scanner(System.in);
+
+        int contador_maiores = 0;
+        int somatorio_idades_maiores = 0;
+
+        for(;;){
+
+            System.out.println("Escreva um idade:");
+            int idade = s.nextInt();
+
+            //Para o ciclo for infinito
+            if(idade <= 0){
+                break;
+            }
+
+            if( idade >= 18){
+                contador_maiores++;
+                somatorio_idades_maiores += idade;
+            }
+
+        }
+        System.out.println("A média dos maiores é: " + (somatorio_idades_maiores/contador_maiores));
     }
 }

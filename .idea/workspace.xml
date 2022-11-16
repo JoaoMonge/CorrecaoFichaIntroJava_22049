@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio 1 - Extra - Imprime todas as tabuadas do 1 ao 9 automaticamnete">
+    <list default="true" id="d98917d9-2611-4156-af38-c764d36e95c9" name="Changes" comment="Exercicio 2">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668607949955</updated>
-      <workItem from="1668607951193" duration="1405000" />
+      <workItem from="1668607951193" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1">
       <created>1668608787876</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668609007596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exercicio 2">
+      <created>1668609426207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668609426207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicio 1" />
     <MESSAGE value="Exercicio 1 - Extra - Imprime todas as tabuadas do 1 ao 9 automaticamnete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 1 - Extra - Imprime todas as tabuadas do 1 ao 9 automaticamnete" />
+    <MESSAGE value="Exercicio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 2" />
   </component>
 </project>
